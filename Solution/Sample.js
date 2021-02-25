@@ -83,6 +83,6 @@ const solve = (max, n, inputs, filename) => {
             m.close('./Output/${filename}.out', (err) => {
                 if (err) throw err;
             });
-        });
+        }); 
     });
 }
